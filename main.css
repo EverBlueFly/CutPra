@@ -1,0 +1,25 @@
+*{
+  border:solid 1px;
+  vertical-align:middle;
+}
+.top{
+  height:100px;
+}
+.bottom{
+  height:400px;
+}
+.left,.right{
+  display:inline-block;
+  width:50%;
+  height:400px;
+  box-sizing:border-box;
+}
+.left{
+}
+.rtop,.rbottom{
+  display:block;
+  height:200px;
+  overflow:hidden;
+  box-sizing:border-box;
+}
+
